@@ -33,6 +33,10 @@ The ansatz, representing the trainable component of the quantum circuit, is cons
 The training process for the Quantum Convolutional Neural Network (QCNN) involves using the MindSpore framework. The quantum neural network is trained using the Adam optimizer and a softmax cross-entropy loss function. The dataset is split into training and testing sets, and during training, the loss decreases steadily, demonstrating effective learning. The final model achieves 100% accuracy on the test set, showcasing the capability of QCNNs for binary classification.
 
 ![Project Diagram](assets/Result2.png)
+
 To compare the performance, a classical Convolutional Neural Network (CNN) is implemented using TensorFlow. The CNN is designed with convolutional, pooling, and dense layers. After training on the same dataset, the CNN also achieves 100% accuracy on the test set. However, the QCNN exhibits faster convergence during training, leveraging the quantum encoding to capture feature relationships more efficiently. This comparison highlights that while both models achieve similar accuracy, the QCNN demonstrates the potential of hybrid quantum-classical models to perform competitively, especially in scenarios where quantum hardware capabilities can offer advantages like reduced computational overhead for complex feature spaces.
 
 # QCNN FOR BREAST CANCER DATASET
+
+### 1. VISUALIZATION AND PREPROCESSING
+
