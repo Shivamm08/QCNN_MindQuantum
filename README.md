@@ -36,7 +36,10 @@ The training process for the Quantum Convolutional Neural Network (QCNN) involve
 
 To compare the performance, a classical Convolutional Neural Network (CNN) is implemented using TensorFlow. The CNN is designed with convolutional, pooling, and dense layers. After training on the same dataset, the CNN also achieves 100% accuracy on the test set. However, the QCNN exhibits faster convergence during training, leveraging the quantum encoding to capture feature relationships more efficiently. This comparison highlights that while both models achieve similar accuracy, the QCNN demonstrates the potential of hybrid quantum-classical models to perform competitively, especially in scenarios where quantum hardware capabilities can offer advantages like reduced computational overhead for complex feature spaces.
 
+
 # QCNN FOR BREAST CANCER DATASET
+![Project Diagram](assets/Breast_Cancer_Visualization.png)
+
 
 ### 1. VISUALIZATION AND PREPROCESSING
 
